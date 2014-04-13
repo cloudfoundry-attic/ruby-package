@@ -13,7 +13,7 @@ tar xzf ruby/yaml-${LIBYAML_VERSION}.tar.gz
   set -e
   cd yaml-${LIBYAML_VERSION}/
   ./configure --prefix=${BOSH_INSTALL_TARGET}
-  make
+  make -j 3   # Use 3 CPUs, which is 1.5 x 2 (the normal number of compile CPUs)
   make install
   ldconfig
 )
