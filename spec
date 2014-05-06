@@ -1,7 +1,7 @@
 ---
 name: ruby
 files:
-- ruby/ruby-1.9.3-p484.tar.gz
+- ruby/ruby-1.9.3-p545.tar.gz
 - ruby/rubygems-1.8.24.tgz
 - ruby/bundler-1.2.1.gem
 - ruby/yaml-0.1.5.tar.gz
