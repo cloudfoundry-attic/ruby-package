@@ -7,7 +7,6 @@ RUBYGEMS_VERSION=`ls -r ruby/rubygems-* | sed 's/ruby\/rubygems-\(.*\)\.tgz/\1/'
 BUNDLER_VERSION=`ls -r ruby/bundler-* | sed 's/ruby\/bundler-\(.*\)\.gem/\1/' | head -1`
 LIBYAML_VERSION=`ls -r ruby/yaml-* | sed 's/ruby\/yaml-\(.*\)\.tar\.gz/\1/' | head -1`
 
-# Install libyaml >= 0.1.5 to fix http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-6393
 tar xzf ruby/yaml-${LIBYAML_VERSION}.tar.gz
 (
   set -e
