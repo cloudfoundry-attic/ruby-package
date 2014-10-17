@@ -1,5 +1,5 @@
 ---
-name: ruby-2.1
+name: ruby
 files:
 - ruby-2.1/ruby-2.1.2.tar.gz
 - ruby-2.1/rubygems-2.4.1.tgz
